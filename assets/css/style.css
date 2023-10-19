@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #353535;
+}
+
+header{
+    padding: 40px 20%;
+    backdrop-filter: blur(10px);
+}
+.nav_item{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #242424;
+    border-radius: 45px;
+    box-shadow: 0px 3px 20px rgb(51, 51, 51);
+}
+.nav_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.nav_link{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+.nav_link:hover{
+    color: #cbd2d6;
+}
+.nav_logo{
+    color: rgb(212, 212, 212);
+    font-weight: bold;
+    font-size: 25px;
+}
+#home{
+    color: rgb(212, 212, 212);
+    margin-top: 200px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.home_main{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.buy_btn{
+    color: white;
+    padding: 8px 35px;
+    background-color: #252525;
+    border: solid 4px #252525;
+    font-size: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.buy_btn:hover{
+    border: solid 4px #252525;
+    background-color: transparent;
+}
+.home_main_button{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
